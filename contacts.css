@@ -17,7 +17,14 @@
     url("http://static.wix.com/services/third-party/fonts/user-site-fonts/fonts/b2a0a25d-e054-4c65-bffa-e5760b48dec3.svg#b2a0a25d-e054-4c65-bffa-e5760b48dec3")
       format("svg");
 }
-
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .main-head {
   height: 263px;
   background-color: #6af67f;
